@@ -1,0 +1,49 @@
+apiVersion: v1
+entries:
+  oidc-server:
+  - apiVersion: v2
+    created: "2022-11-17T17:23:18.982252803Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to file server application.
+    digest: 7d3020eebe71ffb6317383f473e6384aea1216c46e8a98344c193c1eb1273403
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - oidc-server
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: oidc-server
+    type: application
+    urls:
+    - https://mosip.github.io/mosip-helm/oidc-server-12.0.2.tgz
+    version: 12.0.2
+  oidc-ui:
+  - apiVersion: v2
+    created: "2022-11-17T17:23:18.984296311Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP OIDC UI module
+    digest: ddb5dbc1d7dbcb49a6b3fa5645c9c5f3b7785a73543ebc3fb9516652e739e446
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - oidc-ui
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: oidc-ui
+    type: application
+    urls:
+    - https://mosip.github.io/mosip-helm/oidc-ui-12.0.2.tgz
+    version: 12.0.2
+generated: "2022-11-17T17:23:18.979952493Z"
